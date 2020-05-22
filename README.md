@@ -62,7 +62,6 @@ Deve-se notar, principalmente, o *job* `spring-actuator` no interior da seção 
 
 Logo, para rodar o servidor Prometheus em um container Docker, basta utilizar o seguinte comando:
 ```
-
 docker run -d --name=prometheus -p 9090:9090 -v <PATH_TO_prometheus.yml_FILE>:/etc/prometheus/prometheus.yml prom/prometheus --config.file=/etc/prometheus/prometheus.yml
 ```
 Vale ressaltar que é preciso substituir `<PATH_TO_prometheus.yml_FILE>` pelo caminho do arquivo de configuração.
