@@ -75,7 +75,7 @@ docker run -d --name=grafana -p 3000:3000 grafana/grafana
 Então, é possível fazer login no Grafana, partir do endereço `http://localhost:3000` usando o usuário `admin` e a senha `admin` (sendo recomendado modificar a senha logo após o login).
 Por fim, deve-se importar o Prometheus como fonte de dados para o Grafana (um guia para esta etapa pode ser encontrado [aqui](https://stackabuse.com/monitoring-spring-boot-apps-with-micrometer-prometheus-and-grafana/)). Adicionalmente, pode-se importar o [`JVM dashboard`](https://grafana.com/grafana/dashboards/4701) (*dashboard* pronto muito utilizado para aplicações Spring Boot) para facilitar a visualização dos dados.
 
-## `Links úteis`
+## Links úteis
 - Documentação oficial do Prometheus: https://prometheus.io/docs/introduction/overview/
 - Documentação do Spring Boot Actuator: https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-features.html#production-ready-monitoring
 - Documentação do Spring Metrics: https://docs.spring.io/spring-metrics/docs/current/public/prometheus (documentação do Spring Metrics)
